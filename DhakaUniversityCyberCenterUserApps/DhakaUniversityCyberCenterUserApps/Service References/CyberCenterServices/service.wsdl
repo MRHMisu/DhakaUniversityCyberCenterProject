@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ClientServices" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpBinding_IClientServices_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsoma:OptimizedMimeSerialization xmlns:wsoma="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IClientServices_IsValidUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsValidUser" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_IsValidUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsValidUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_IsActive_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsActive" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_IsActive_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsActiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_ToBeInActive_InputMessage">
+    <wsdl:part name="parameters" element="tns:ToBeInActive" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_ToBeInActive_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ToBeInActiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_InsertIntoActiveSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoActiveSession" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_InsertIntoActiveSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoActiveSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_getCardUsageIdAfterInsertingStartingTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCardUsageIdAfterInsertingStartingTime" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_getCardUsageIdAfterInsertingStartingTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCardUsageIdAfterInsertingStartingTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_getUsingTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:getUsingTime" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_getUsingTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getUsingTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_UpdateFinishingTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFinishingTime" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_UpdateFinishingTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFinishingTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_IsCardExperiedByDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsCardExperiedByDate" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_IsCardExperiedByDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsCardExperiedByDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_ViewCardUsage_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewCardUsage" />
+  </wsdl:message>
+  <wsdl:message name="IClientServices_ViewCardUsage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewCardUsageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IClientServices">
+    <wsdl:operation name="IsValidUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/IsValidUser" message="tns:IClientServices_IsValidUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/IsValidUserResponse" message="tns:IClientServices_IsValidUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsActive">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/IsActive" message="tns:IClientServices_IsActive_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/IsActiveResponse" message="tns:IClientServices_IsActive_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ToBeInActive">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/ToBeInActive" message="tns:IClientServices_ToBeInActive_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/ToBeInActiveResponse" message="tns:IClientServices_ToBeInActive_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoActiveSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/InsertIntoActiveSession" message="tns:IClientServices_InsertIntoActiveSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/InsertIntoActiveSessionResponse" message="tns:IClientServices_InsertIntoActiveSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCardUsageIdAfterInsertingStartingTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/getCardUsageIdAfterInsertingStartingTime" message="tns:IClientServices_getCardUsageIdAfterInsertingStartingTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/getCardUsageIdAfterInsertingStartingTimeResponse" message="tns:IClientServices_getCardUsageIdAfterInsertingStartingTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsingTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/getUsingTime" message="tns:IClientServices_getUsingTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/getUsingTimeResponse" message="tns:IClientServices_getUsingTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFinishingTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/UpdateFinishingTime" message="tns:IClientServices_UpdateFinishingTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/UpdateFinishingTimeResponse" message="tns:IClientServices_UpdateFinishingTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsCardExperiedByDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/IsCardExperiedByDate" message="tns:IClientServices_IsCardExperiedByDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/IsCardExperiedByDateResponse" message="tns:IClientServices_IsCardExperiedByDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewCardUsage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientServices/ViewCardUsage" message="tns:IClientServices_ViewCardUsage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientServices/ViewCardUsageResponse" message="tns:IClientServices_ViewCardUsage_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IClientServices" type="tns:IClientServices">
+    <wsp:PolicyReference URI="#BasicHttpBinding_IClientServices_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="IsValidUser">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/IsValidUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsActive">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/IsActive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ToBeInActive">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/ToBeInActive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoActiveSession">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/InsertIntoActiveSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCardUsageIdAfterInsertingStartingTime">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/getCardUsageIdAfterInsertingStartingTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsingTime">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/getUsingTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFinishingTime">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/UpdateFinishingTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsCardExperiedByDate">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/IsCardExperiedByDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewCardUsage">
+      <soap:operation soapAction="http://tempuri.org/IClientServices/ViewCardUsage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ClientServices">
+    <wsdl:port name="BasicHttpBinding_IClientServices" binding="tns:BasicHttpBinding_IClientServices">
+      <soap:address location="http://cybercenter:8733/CyberCenterClientWCFServices/Service.svc/CyberCenter" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

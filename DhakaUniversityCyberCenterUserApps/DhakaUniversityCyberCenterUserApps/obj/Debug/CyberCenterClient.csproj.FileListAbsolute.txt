@@ -1,0 +1,22 @@
+D:\C# LAB\CyberCenterClient\CyberCenterClient\bin\Debug\CyberCenterClient.exe
+D:\C# LAB\CyberCenterClient\CyberCenterClient\bin\Debug\CyberCenterClient.pdb
+D:\C# LAB\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.csprojResolveAssemblyReference.cache
+D:\C# LAB\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.LogInForm.resources
+D:\C# LAB\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.Properties.Resources.resources
+D:\C# LAB\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.csproj.GenerateResource.Cache
+D:\C# LAB\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.exe
+D:\C# LAB\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.pdb
+D:\C# LAB\CyberCenterClient\CyberCenterClient\bin\Debug\CyberCenterClient.exe.config
+D:\C# LAB\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.TimerWindowForm.resources
+D:\C# LAB\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.GridView.resources
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\bin\Debug\CyberCenterClient.exe.config
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\bin\Debug\CyberCenterClient.exe
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\bin\Debug\CyberCenterClient.pdb
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.csprojResolveAssemblyReference.cache
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.LoginView.resources
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.CountDownTimerView.resources
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.CardUsageView.resources
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.Properties.Resources.resources
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.csproj.GenerateResource.Cache
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.exe
+D:\Cyber Center Project\CyberCenterClient\CyberCenterClient\obj\Debug\CyberCenterClient.pdb

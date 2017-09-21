@@ -1,0 +1,12 @@
+D:\C# LAB\CyberCenter\CyberCenter\bin\Debug\CyberCenter.dll.config
+D:\C# LAB\CyberCenter\CyberCenter\bin\Debug\CyberCenter.dll
+D:\C# LAB\CyberCenter\CyberCenter\bin\Debug\CyberCenter.pdb
+D:\C# LAB\CyberCenter\CyberCenter\obj\Debug\CyberCenter.dll
+D:\C# LAB\CyberCenter\CyberCenter\obj\Debug\CyberCenter.pdb
+D:\C# LAB\CyberCenter\CyberCenter\obj\Debug\CyberCenter.csprojResolveAssemblyReference.cache
+D:\Cyber Center Project\CyberCenter\CyberCenter\bin\Debug\CyberCenter.dll.config
+D:\Cyber Center Project\CyberCenter\CyberCenter\bin\Debug\CyberCenter.dll
+D:\Cyber Center Project\CyberCenter\CyberCenter\bin\Debug\CyberCenter.pdb
+D:\Cyber Center Project\CyberCenter\CyberCenter\obj\Debug\CyberCenter.csprojResolveAssemblyReference.cache
+D:\Cyber Center Project\CyberCenter\CyberCenter\obj\Debug\CyberCenter.dll
+D:\Cyber Center Project\CyberCenter\CyberCenter\obj\Debug\CyberCenter.pdb

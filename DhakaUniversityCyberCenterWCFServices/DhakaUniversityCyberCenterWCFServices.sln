@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhakaUniversityCyberCenterWCFServices", "DhakaUniversityCyberCenterWCFServices\DhakaUniversityCyberCenterWCFServices.csproj", "{4E334F2E-FF8B-4797-B3A4-AF3DE59D3B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingDUCCWCFServicesInWebForns", "HostingDUCCWCFServicesInWebForns\HostingDUCCWCFServicesInWebForns.csproj", "{28662BB7-23CA-43C2-9122-66480604E536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingDUCCWCFServicesInWindowServices", "HostingDUCCWCFServicesInWindowServices\HostingDUCCWCFServicesInWindowServices.csproj", "{228E4650-13D6-4A37-8187-CE1D337B0693}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HostingDUCCWCFServicesInWebApps", "HostingDUCCWCFServicesInWebApps\", "{B471894F-2065-415F-8C37-AA750EF4266D}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{4e334f2e-ff8b-4797-b3a4-af3de59d3b83}|CyberCenter.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1783"
+		Debug.AspNetCompiler.PhysicalPath = "HostingDUCCWCFServicesInWebApps\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1783\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1783"
+		Release.AspNetCompiler.PhysicalPath = "HostingDUCCWCFServicesInWebApps\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1783\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "19155"
+		SlnRelativePath = "HostingDUCCWCFServicesInWebApps\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E334F2E-FF8B-4797-B3A4-AF3DE59D3B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E334F2E-FF8B-4797-B3A4-AF3DE59D3B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E334F2E-FF8B-4797-B3A4-AF3DE59D3B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E334F2E-FF8B-4797-B3A4-AF3DE59D3B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28662BB7-23CA-43C2-9122-66480604E536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28662BB7-23CA-43C2-9122-66480604E536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28662BB7-23CA-43C2-9122-66480604E536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28662BB7-23CA-43C2-9122-66480604E536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228E4650-13D6-4A37-8187-CE1D337B0693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228E4650-13D6-4A37-8187-CE1D337B0693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228E4650-13D6-4A37-8187-CE1D337B0693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228E4650-13D6-4A37-8187-CE1D337B0693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B471894F-2065-415F-8C37-AA750EF4266D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B471894F-2065-415F-8C37-AA750EF4266D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B471894F-2065-415F-8C37-AA750EF4266D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B471894F-2065-415F-8C37-AA750EF4266D}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

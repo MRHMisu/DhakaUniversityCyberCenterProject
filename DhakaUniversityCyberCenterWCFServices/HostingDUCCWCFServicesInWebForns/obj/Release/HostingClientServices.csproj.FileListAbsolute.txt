@@ -1,0 +1,27 @@
+D:\C# LAB\CyberCenter\HostingClientServices\bin\Release\HostingClientServices.exe.config
+D:\C# LAB\CyberCenter\HostingClientServices\bin\Release\HostingClientServices.exe
+D:\C# LAB\CyberCenter\HostingClientServices\bin\Release\HostingClientServices.pdb
+D:\C# LAB\CyberCenter\HostingClientServices\bin\Release\CyberCenter.dll
+D:\C# LAB\CyberCenter\HostingClientServices\bin\Release\CyberCenter.pdb
+D:\C# LAB\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.csprojResolveAssemblyReference.cache
+D:\C# LAB\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.Form1.resources
+D:\C# LAB\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.Properties.Resources.resources
+D:\C# LAB\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.csproj.GenerateResource.Cache
+D:\C# LAB\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.exe
+D:\C# LAB\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.pdb
+D:\Cyber Center Project\CyberCenter\HostingClientServices\bin\Release\HostingClientServices.exe.config
+D:\Cyber Center Project\CyberCenter\HostingClientServices\bin\Release\HostingClientServices.exe.manifest
+D:\Cyber Center Project\CyberCenter\HostingClientServices\bin\Release\HostingClientServices.application
+D:\Cyber Center Project\CyberCenter\HostingClientServices\bin\Release\HostingClientServices.exe
+D:\Cyber Center Project\CyberCenter\HostingClientServices\bin\Release\HostingClientServices.pdb
+D:\Cyber Center Project\CyberCenter\HostingClientServices\bin\Release\CyberCenter.dll
+D:\Cyber Center Project\CyberCenter\HostingClientServices\bin\Release\CyberCenter.pdb
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.csprojResolveAssemblyReference.cache
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.HostingClientServicesView.resources
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.Properties.Resources.resources
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.csproj.GenerateResource.Cache
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.TrustInfo.xml
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.exe.manifest
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.application
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.exe
+D:\Cyber Center Project\CyberCenter\HostingClientServices\obj\Release\HostingClientServices.pdb

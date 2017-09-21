@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhakaUniversityCyberCenterAdministratorSite", "DhakaUniversityCyberCenterAdministratorSite\DhakaUniversityCyberCenterAdministratorSite.csproj", "{0FD759B6-D435-405A-A98F-9CAA6D268EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhakaUniversityCyberCenterAdministratorSite.Tests", "DhakaUniversityCyberCenterAdministratorSite.Tests\DhakaUniversityCyberCenterAdministratorSite.Tests.csproj", "{1C8F3378-4ADA-4003-ABD1-A6FE0C21C14F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD759B6-D435-405A-A98F-9CAA6D268EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD759B6-D435-405A-A98F-9CAA6D268EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD759B6-D435-405A-A98F-9CAA6D268EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD759B6-D435-405A-A98F-9CAA6D268EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8F3378-4ADA-4003-ABD1-A6FE0C21C14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8F3378-4ADA-4003-ABD1-A6FE0C21C14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8F3378-4ADA-4003-ABD1-A6FE0C21C14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8F3378-4ADA-4003-ABD1-A6FE0C21C14F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

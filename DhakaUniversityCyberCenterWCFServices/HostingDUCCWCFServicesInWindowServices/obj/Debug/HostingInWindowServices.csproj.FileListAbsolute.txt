@@ -1,0 +1,20 @@
+D:\C# LAB\CyberCenter\HostingInWindowServices\bin\Debug\HostingInWindowServices.exe.config
+D:\C# LAB\CyberCenter\HostingInWindowServices\bin\Debug\HostingInWindowServices.exe
+D:\C# LAB\CyberCenter\HostingInWindowServices\bin\Debug\HostingInWindowServices.pdb
+D:\C# LAB\CyberCenter\HostingInWindowServices\bin\Debug\CyberCenter.dll
+D:\C# LAB\CyberCenter\HostingInWindowServices\bin\Debug\CyberCenter.pdb
+D:\C# LAB\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.csprojResolveAssemblyReference.cache
+D:\C# LAB\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.ProjectInstaller.resources
+D:\C# LAB\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.csproj.GenerateResource.Cache
+D:\C# LAB\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.exe
+D:\C# LAB\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.pdb
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\bin\Debug\HostingInWindowServices.exe.config
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\bin\Debug\HostingInWindowServices.exe
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\bin\Debug\HostingInWindowServices.pdb
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\bin\Debug\CyberCenter.dll
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\bin\Debug\CyberCenter.pdb
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.csprojResolveAssemblyReference.cache
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.ProjectInstaller.resources
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.csproj.GenerateResource.Cache
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.exe
+D:\Cyber Center Project\CyberCenter\HostingInWindowServices\obj\Debug\HostingInWindowServices.pdb

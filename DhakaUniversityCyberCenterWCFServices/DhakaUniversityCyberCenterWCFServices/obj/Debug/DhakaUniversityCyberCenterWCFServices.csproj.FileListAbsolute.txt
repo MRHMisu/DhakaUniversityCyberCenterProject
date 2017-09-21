@@ -1,0 +1,6 @@
+D:\My All Lab Work\Cyber Center Project\DhakaUniversityCyberCenterProject\DhakaUniversityCyberCenterWCFServices\DhakaUniversityCyberCenterWCFServices\bin\Debug\CyberCenter.dll.config
+D:\My All Lab Work\Cyber Center Project\DhakaUniversityCyberCenterProject\DhakaUniversityCyberCenterWCFServices\DhakaUniversityCyberCenterWCFServices\bin\Debug\CyberCenter.dll
+D:\My All Lab Work\Cyber Center Project\DhakaUniversityCyberCenterProject\DhakaUniversityCyberCenterWCFServices\DhakaUniversityCyberCenterWCFServices\bin\Debug\CyberCenter.pdb
+D:\My All Lab Work\Cyber Center Project\DhakaUniversityCyberCenterProject\DhakaUniversityCyberCenterWCFServices\DhakaUniversityCyberCenterWCFServices\obj\Debug\DhakaUniversityCyberCenterWCFServices.csprojResolveAssemblyReference.cache
+D:\My All Lab Work\Cyber Center Project\DhakaUniversityCyberCenterProject\DhakaUniversityCyberCenterWCFServices\DhakaUniversityCyberCenterWCFServices\obj\Debug\CyberCenter.dll
+D:\My All Lab Work\Cyber Center Project\DhakaUniversityCyberCenterProject\DhakaUniversityCyberCenterWCFServices\DhakaUniversityCyberCenterWCFServices\obj\Debug\CyberCenter.pdb
